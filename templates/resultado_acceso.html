@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block contenido %}
+    <h1>Resultado del acceso</h1>
+    <p>{{ mensaje }}</p>
+
+    <p><a href="{{ url_for('ejercicio2') }}">Volver al formulario</a></p>
+    <p><a href="{{ url_for('inicio') }}">Volver al menú principal</a></p>
+{% endblock %}>

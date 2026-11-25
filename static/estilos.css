@@ -1,0 +1,59 @@
+body{
+    font-family: Arial,sans-serif;
+    background-color: #eef2f6;
+    text-align: center;
+}
+.boton-menu{
+    display: block;
+    width: 150px;
+    margin: 12px auto;
+    padding: 12px;
+    background-color: #0866c6;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    max-width: 360px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    align-items: center;
+    margin: 24px auto;
+}
+main {
+    max-width: 400px;
+    margin: 32px auto;
+}
+
+h1 {
+    text-align: center;
+}
+.menu-ejercicios {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.menu-ejercicios a {
+    display: grid;
+    place-items: center;
+    width: 140px;
+    height: 140px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menu-ejercicios .boton-pintura {
+    background-color: #b00eb0;
+    color: white;
+}
+
+.menu-ejercicios .boton-acceso {
+    background-color: #8bc820;
+    color: #172000;
+}
