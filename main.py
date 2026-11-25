@@ -44,7 +44,7 @@ def ejercicio2():
         clave=request.form["clave"]
 
         if usuario=="juan" and clave=="admin":
-            mensaje="Bienvenido Administrador Juan"
+            mensaje="Bienvenido administrador Juan"
         elif usuario=="pepe" and clave=="user":
             mensaje="Bienvenido usuario Pepe"
         else:
